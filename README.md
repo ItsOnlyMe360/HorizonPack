@@ -25,3 +25,4 @@ Miscelâneos:
 - Modelo do Escudo foi alterado pra ser mais arredondado.
 - Titulo do jogo do menu foi alterado.
 - Céu realista.
+- Textura do relógio foi alterada pra ser um relógio de horas.
