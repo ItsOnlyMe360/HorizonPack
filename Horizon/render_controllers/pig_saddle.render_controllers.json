@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.pig_saddle": {
+      "geometry": "Geometry.default2",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "query.is_saddled ? Texture.saddled"
+      ]
+    }
+  }
+}
+    ]
+    }
+  }
+}
