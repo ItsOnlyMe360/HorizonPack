@@ -5,7 +5,7 @@
         "description": "A new view for Minecraft. By @ItsOnlyMe360",
         "name": "Horizon",
         "uuid": "488b28e1-56e3-3907-87e9-2a83d41e3a22",
-        "version": [1, 0, 0],
+        "version": [1, 0, 1],
         "min_engine_version": [ 1, 18, 0 ]
     },
     "modules": [
@@ -13,7 +13,7 @@
             "description": "A new view for Minecraft. By @ItsOnlyMe360",
             "type": "resources",
             "uuid": "939a95d2-ae04-ed0f-9b06-a0ce5b7b6a8f",
-            "version": [1, 0, 0]
+            "version": [1, 0, 1]
         }
     ]
 }
