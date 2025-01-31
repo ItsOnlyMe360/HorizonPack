@@ -48,8 +48,8 @@
     }
 
     .button {
-	  background-color: #3f51b5;
-	  color: #fff;
+      background-color: #3f51b5;
+      color: #fff;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -59,6 +59,7 @@
       text-align: center;
       cursor: pointer;
       transition: 0.3s;
+      text-decoration: none;
     }
 
     .button:hover {
@@ -66,33 +67,11 @@
       color: #fff;
     }
 
-    .button-unavailable {
-      background-color: #ccc;
-      color: #fff;
-      pointer-events: none;
-    }
-
-    .button-info {
-      position: relative;
-    }
-
-    .button-info:hover::after {
-      content: "Pack indisponível temporariamente";
-      position: absolute;
-      background-color: #333;
-      color: #fff;
-      padding: 5px;
-      border-radius: 5px;
-      top: -30px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
     .hidden {
       display: none;
     }
 
-        @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 600px) {
       .header img {
         max-width: 100%;
         max-height: 50vh;
@@ -113,7 +92,7 @@
 </head>
 <body scroll="no" style="overflow: hidden">
   <header class="header">
-    <img src="https://raw.githubusercontent.com/ItsOnlyMe360/HorizonPack/main/Horizon/texture/ui/title.png" alt="Título">
+    <img src="https://github.com/ItsOnlyMe360/HorizonPack/blob/main/Horizon/textures/ui/title.png?raw=true" alt="Título">
   </header>
 
   <div class="content">
@@ -121,37 +100,17 @@
   </div>
 
   <div class="availability">
-    <p>Clique no botão para descobrir opções disponíveis:</p>
+    <p>Clique no botão para fazer o download:</p>
   </div>
 
   <div class="button-container">
-    <div class="button" onclick="toggleButtons()">
+    <a class="button" href="https://github.com/ItsOnlyMe360/HorizonPack/releases/download/v1.2.0/Horizon.mcpack">
       Download
-    </div>
-
-    <div id="buttons" class="hidden">
-      <div class="button" onclick="downloadMobs()">
-        Blocos modificados
-      </div>
-
-      <div class="button button-unavailable">
-        Mobs e Blocos modificados
-      </div>
-    </div>
-	<div id="embed">
-		<embed type="text/html" src="https://itsonlyme360.github.io/WebPlayground/cuberoll.html" width="350" height="400" scroll="no" style="overflow: hidden">
-	  </div>
+    </a>
   </div>
 
-  <script>
-    function toggleButtons() {
-      var buttons = document.getElementById('buttons');
-      buttons.classList.toggle('hidden');
-    }
-
-    function downloadMobs() {
-      window.location.href = 'https://github.com/ItsOnlyMe360/HorizonPack/releases/download/v1.1.0/HorizonNoMobs.mcpack';
-    }
-  </script>
+  <div id="embed">
+    <embed type="text/html" src="https://itsonlyme360.github.io/WebPlayground/cuberoll.html" width="350" height="400" scroll="no" style="overflow: hidden">
+  </div>
 </body>
 </html>
