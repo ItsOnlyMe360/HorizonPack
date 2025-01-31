@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "A lot of little things mashed together.",
+    "name": "Horizon",
+    "uuid": "a1a60106-faf2-4391-81e6-b69bb8898024",
+    "version": [1,2,0]
+  },
+  "modules": [
+    {
+      "description": "Horizon Pack 1.2.0",
+      "type": "resources",
+      "uuid": "38cdd235-9b0a-4291-8e8e-db9cc29cdf20",
+      "version": [1,2,0]
+    }
+  ]
+}
